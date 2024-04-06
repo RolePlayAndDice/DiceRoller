@@ -1,0 +1,2 @@
+# DiceRoller
+Discord Dice Roller 

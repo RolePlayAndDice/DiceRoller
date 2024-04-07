@@ -36,6 +36,9 @@ Excited to roll the dice on your own? Follow these steps to set up the bot for d
 
 ## 📜 Enjoy Your Games
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. Roll the dice, have fun, and spread the joy with the Dice Monster Bot! 🎲✨Games
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. Roll the dice, have fun, and spread the joy with the Dice Monster Bot! 🎲✨
+
+
+
+
+

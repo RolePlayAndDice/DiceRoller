@@ -26,5 +26,13 @@ jobs:
 
     - name: Run Discord bot
       run: python roller.py  # Replace 'bot.py' with your bot script file
-      env:
-        DISCORD_TOKEN: ${{ MTIyNjMyOTczMjQyNjI0MDAzMA.GoRbd5.dM-xiC_jS1YuP5euZfbO0SkimF797gUT7AxKpg }}  # Define your Discord bot token secret
+#      env:
+ #       DISCORD_TOKEN: ${{ MTIyNjMyOTczMjQyNjI0MDAzMA.GoRbd5.dM-xiC_jS1YuP5euZfbO0SkimF797gUT7AxKpg }}  # Define your Discord bot token secret
+
+
+
+
+
+
+
+

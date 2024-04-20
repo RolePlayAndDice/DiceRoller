@@ -1,0 +1,30 @@
+yaml
+name: Discord Bot Workflow
+
+on:
+  push:
+    branches:
+      - main  # Update this branch name if needed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Specify the desired Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Adjust as per your requirements
+
+    - name: Run Discord bot
+      run: python bot.py  # Replace 'bot.py' with your bot script file
+      env:
+        DISCORD_TOKEN: ${{ MTIyNjMyOTczMjQyNjI0MDAzMA.GoRbd5.dM-xiC_jS1YuP5euZfbO0SkimF797gUT7AxKpg }}  # Define your Discord bot token secret
